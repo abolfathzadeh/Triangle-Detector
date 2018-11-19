@@ -37,7 +37,10 @@ function CheckResult(s1, s2, s3) {
     Triangle.prototype.IsTriangle = function () {
         if ((Number(this.x) + Number(this.y) >= Number(this.z)) 
             && (Number(this.x) + Number(this.z) >= Number(this.y))
-            && (Number(this.y) + Number(this.z) >= Number(this.x)))
+            && (Number(this.y) + Number(this.z) >= Number(this.x))
+           && Number(this.x) > 0
+         && Number(this.y) > 0
+        && Number(this.x) > 0)
             return "true";
         else
             return "false";
