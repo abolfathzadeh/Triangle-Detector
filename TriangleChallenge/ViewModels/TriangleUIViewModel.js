@@ -5,7 +5,14 @@
         this.Side3 = ko.observable(Side3);
 
         this.CheckTriangleType = function () {
-            CheckResult(this.Side1(), this.Side2(), this.Side3());
+            try{
+                CheckResult(this.Side1(), this.Side2(), this.Side3());
+            }
+            catch(error)
+            {
+                alert(error)
+                //logingError(error)
+            }
         }
     };
 
