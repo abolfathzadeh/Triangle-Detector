@@ -1,0 +1,86 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+}
+<div>
+
+    <table style="background-color:#ffdfdf;margin:50px; padding:20px;">
+        <tr>
+            <td colspan="2">
+                <table style="border:groove;background-color:#cce7ff;width:100%">
+                    <tr>
+                        <td>
+                           Simple Solution For Check Triangle Type(knockout & Function)
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="min-width:100px;">
+                <label for="lblSide1" style="color:darkblue">Side1:</label>
+
+            </td>
+            <td>
+                <input type="text" class="form-control" id="lblSide1" placeholder="Side1" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value: Side1" />
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lblSide2" style="color:darkblue">Side2:</label>
+
+            </td>
+            <td>
+                <input type="text" class="form-control" id="lblSide2" placeholder="Side2" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value: Side2" />
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lblSide3" style="color:darkblue">Side3:</label>
+
+            </td>
+            <td>
+                <input type="text" class="form-control" id="lblSide3" placeholder="Side3" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value:Side3" />
+
+            </td>
+        </tr>
+        
+        <tr>
+                <td colspan="3">
+                    <label Id="lblResult" style="color:darkblue">Result : </label>
+                    <span data-bind="text: sResult">...</span>
+
+                </td>
+            </tr>
+    </table>
+<div style="padding:20px;">
+<p >
+Hi,This is The first solution. I think simple is the best, so in this page I used knockout js for bind object of UI o ViewModel.
+In ViewModel I defined function to Check Triangle Type.
+<br />
+on next Step we Have solution in Controller. Lets go to check it .<a href ="/Home/Index" target="_self" class="btn btn-primary"> Next Solution</a>
+</p>
+</div>
+</div>
+
+
+@section scripts{
+<script src="~/ViewModels/TriangleSimpleViewModel.js"></script>
+<script type="text/javascript">
+    var specialKeys = new Array();
+    specialKeys.push(8); //Backspace
+    function IsNumeric(e) {
+        var keyCode = e.which ? e.which : e.keyCode
+        var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+        
+        return ret;
+    }
+</script>
+}
+
+

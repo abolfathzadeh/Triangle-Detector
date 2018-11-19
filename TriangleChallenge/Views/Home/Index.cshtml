@@ -1,0 +1,84 @@
+﻿@{
+  
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+}
+    <div >
+
+        <table style="background-color:#ffdfdf;margin:50px; padding:20px;">
+            <tr>
+                <td colspan="2">
+                    <table style="border:groove;background-color:#cce7ff;width:100%">
+                        <tr>
+                            <td>
+                                Solution For Check Triangle Type(Class)-- by Alert Show
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="min-width:100px;">
+                    <label for="lblSide1" style="color:darkblue">Side1:</label>
+
+                </td>
+                <td>
+                    <input type="text" class="form-control" id="lblSide1" placeholder="Side1" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value: Side1" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lblSide2" style="color:darkblue">Side2:</label>
+
+                </td>
+                <td>
+                    <input type="text" class="form-control" id="lblSide2" placeholder="Side2" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value: Side2" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lblSide3" style="color:darkblue">Side3:</label>
+
+                </td>
+                <td>
+                    <input type="text" class="form-control" id="lblSide3" placeholder="Side3" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value:Side3" />
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" class="btn btn-primary" data-bind="click:function(){$root.CheckTriangleType()}"><i class="glyphicon glyphicon-screenshot"></i>&nbsp;&nbsp;Check The Type</button>
+                    
+                    <a target="_self" href="/Home/Index_Simple" class="btn btn-default"><i class="glyphicon glyphicon-remove"></i>&nbsp;&nbsp;Back</a>
+                </td>
+            </tr>           
+        </table>
+<div style="padding:20px;">
+<p>
+This is The Second solution. In this page I used knockout js for bind object of UI o ViewModel.
+In ViewModel I Called a Method from DetectTriangleType Class by ajax to Check the Type Of Triangles.
+<br />
+on next Step we Have solution in Javascript. Lets go to check it .<a href ="/Home/IndexUI" target="_self" class="btn btn-primary"> Next Solution</a>
+</p>
+</div>
+    </div>
+
+
+@section scripts{
+<script src="~/ViewModels/TriangleViewModel.js"></script>
+<script type="text/javascript">
+    var specialKeys = new Array();
+    specialKeys.push(8); //Backspace
+    function IsNumeric(e) {
+        var keyCode = e.which ? e.which : e.keyCode
+        var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+        
+        return ret;
+    }
+</script>
+}
+
