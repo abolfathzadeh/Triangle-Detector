@@ -22,7 +22,8 @@ namespace TriangleChallenge.ViewModels
         }
         public virtual bool IsTriangle()
         {
-            if ((x + y < z) || (x + z < y) || (y + z < x))
+            if ((x + y < z) || (x + z < y) || (y + z < x)
+            ||x<=0 || y<=0 || z<=0)
                 return false;
             else
                 return true;
