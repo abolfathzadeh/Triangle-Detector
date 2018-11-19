@@ -6,7 +6,9 @@
 
         this.CheckTriangleType = function () {
             try{
-                CheckResult(this.Side1(), this.Side2(), this.Side3());
+                if (this.Side1() != "" && this.Side2() != "" && this.Side3() != "") {
+                    CheckResult(this.Side1(), this.Side2(), this.Side3());
+                }
             }
             catch(error)
             {
