@@ -18,10 +18,22 @@
 
 ko.applyBindings(new ViewModel("", "", ""));
 });
+function Validate(s1, s2, s3)
+{
+    if (s1 == "" || s2 == "" || s3 == ""
+        || number(s1) == 0 || number(s2) == 0 || number(s3) == 0)
+        return false;
+    return true;
+}
 
 function CheckResult(s1, s2, s3)
 {
-    if (s1 != "" && s2 != "" && s3 != "") {
+   if (Validate(s1, s2, s3) == false) {
+        alertify.alert("please Enter All Sides");
+        $("#alertify-ok").text("Close");
+        alertify.set({ buttonFocus: "ok" });
+    }
+    else {
     var res="";
     var url = "/Home/Check?a="+s1+"&b="+s2+"&c="+s3;
     $.ajax({
