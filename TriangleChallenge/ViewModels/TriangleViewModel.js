@@ -21,6 +21,7 @@ ko.applyBindings(new ViewModel("", "", ""));
 
 function CheckResult(s1, s2, s3)
 {
+    if (s1 != "" && s2 != "" && s3 != "") {
     var res="";
     var url = "/Home/Check?a="+s1+"&b="+s2+"&c="+s3;
     $.ajax({
@@ -38,4 +39,5 @@ function CheckResult(s1, s2, s3)
             res = "We Have an Error!!!";
         }
     });
+    }
 }
