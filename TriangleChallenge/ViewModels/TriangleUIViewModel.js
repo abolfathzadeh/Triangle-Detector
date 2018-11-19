@@ -13,7 +13,7 @@
             catch(error)
             {
                 alert(error)
-                
+                //logingError(error)
             }
         }
     };
