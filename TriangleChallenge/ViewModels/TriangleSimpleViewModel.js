@@ -30,7 +30,10 @@ function IsTriangle(s1, s2, s3)
 {
     if ((Number(s1) + Number(s2) >= Number(s3))
         && (Number(s1) + Number(s3) >= Number(s2))
-        && (Number(s2) + Number(s3) >= Number(s1)))
+        && (Number(s2) + Number(s3) >= Number(s1))
+       && Number(s1) > 0
+        && Number(s2) > 0
+        && Number(s3) > 0)
         return "true";
     else
         return "false";
