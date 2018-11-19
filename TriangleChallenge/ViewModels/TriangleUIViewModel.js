@@ -13,16 +13,13 @@
             catch(error)
             {
                 alert(error)
-                //logingError(error)
+                
             }
         }
     };
 
     ko.applyBindings(new ViewModel("", "", ""));
 });
-
-
-
 
 
 function CheckResult(s1, s2, s3) {
@@ -99,8 +96,7 @@ function CheckResult(s1, s2, s3) {
         else
             return "false";
     }
-
-    //debugger;
+    
     var TriangleEquilateral = new TriangleEquilateral(s1, s2, s3)
     var TriangleIsosceles = new TriangleIsosceles(s1, s2, s3)
     var TriangleScalene = new TriangleScalene(s1, s2, s3)
