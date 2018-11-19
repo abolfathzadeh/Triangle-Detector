@@ -77,14 +77,14 @@ function CheckResult(s1, s2, s3) {
     TriangleScalene.prototype.constructor = TriangleScalene;// Define constructor for this prototype
 
     TriangleEquilateral.prototype.IsEquilateral = function () {
-        if (this.IsTriangle() == "true"  && this.IsValidData()=="true && this.x == this.y && this.y == this.z)
+        if (this.IsTriangle() == "true"  && this.IsValidData()=="true" && this.x == this.y && this.y == this.z)
             return "true";
         else
             return "false";
     }
 
     TriangleIsosceles.prototype.IsIsosceles = function () {
-        if (this.IsTriangle() == "true"  && this.IsValidData()=="true &&
+        if (this.IsTriangle() == "true"  && this.IsValidData()=="true" &&
             ((this.x == this.y && this.x != this.z) ||
              (this.x == this.z && this.z != this.y) ||
              (this.y == this.z && this.z != this.x)))
@@ -93,7 +93,7 @@ function CheckResult(s1, s2, s3) {
             return "false";
     }
     TriangleScalene.prototype.IsScalene = function () {
-        if (this.IsTriangle() == "true"  && this.IsValidData()=="true &&
+        if (this.IsTriangle() == "true"  && this.IsValidData()=="true" &&
             (this.x != this.y && this.y != this.z && this.z != this.x))
             return "true";
         else
@@ -107,7 +107,7 @@ function CheckResult(s1, s2, s3) {
     var ok = "<i class='glyphicon glyphicon-ok'></i>&nbsp;";
     var NotOk = "<i class='glyphicon glyphicon-remove'></i>&nbsp;";
     if (TriangleEquilateral.IsValidData() == "false"
-        || TriangleIsosceles.IsValidData() == "false" || TriangleScalene.IsValidData() == "false") res = (NotOk+" Please enter sides");
+        || TriangleIsosceles.IsValidData() == "false" || TriangleScalene.IsValidData() == "false") res = (NotOk+" Please enter All sides");
     else if (TriangleEquilateral.IsEquilateral() == "true")
         res = (ok + "Equilateral Triangle");
     else if (TriangleIsosceles.IsIsosceles() == "true")
