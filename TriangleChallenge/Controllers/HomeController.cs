@@ -26,6 +26,8 @@ namespace TriangleChallenge.Controllers
         }
         public JsonResult Check(int a, int b, int c)
         {
+        try
+            {
             DetectTriangleType detect = new DetectTriangleType();
 
             if (detect.Detector(new TriangleEquilateral(a, b, c)))
@@ -37,6 +39,11 @@ namespace TriangleChallenge.Controllers
             else
 
                 return Json("this is no triangle!", JsonRequestBehavior.AllowGet);
+                }
+            catch
+            {
+                return Json("Error", JsonRequestBehavior.AllowGet);
+            }
         }
     }
 }
