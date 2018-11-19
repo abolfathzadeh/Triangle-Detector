@@ -1,0 +1,65 @@
+D:\TriangleChallenge\TriangleChallenge\obj\Debug\TriangleChallenge.dll
+D:\TriangleChallenge\TriangleChallenge\obj\Debug\TriangleChallenge.pdb
+D:\TriangleChallenge\TriangleChallenge\bin\TriangleChallenge.dll
+D:\TriangleChallenge\TriangleChallenge\bin\TriangleChallenge.pdb
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Helpers.dll
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Razor.dll
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Deployment.dll
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.dll
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Razor.dll
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Razor.xml
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.xml
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Deployment.xml
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Razor.xml
+D:\TriangleChallenge\TriangleChallenge\bin\System.Web.Helpers.xml
+E:\Source\TriangleChallenge\TriangleChallenge\bin\TriangleChallenge.dll.config
+E:\Source\TriangleChallenge\TriangleChallenge\bin\TriangleChallenge.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\TriangleChallenge.pdb
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Helpers.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Mvc.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Razor.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Deployment.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Razor.dll
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Razor.xml
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.xml
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Deployment.xml
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Webpages.Razor.xml
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Helpers.xml
+E:\Source\TriangleChallenge\TriangleChallenge\bin\System.Web.Mvc.xml
+E:\Source\TriangleChallenge\TriangleChallenge\obj\Debug\TriangleChallenge.csprojResolveAssemblyReference.cache
+E:\Source\TriangleChallenge\TriangleChallenge\obj\Debug\TriangleChallenge.dll
+E:\Source\TriangleChallenge\TriangleChallenge\obj\Debug\TriangleChallenge.pdb
+D:\TriangleChallenge - bk\TriangleChallenge\bin\TriangleChallenge.dll
+D:\TriangleChallenge - bk\TriangleChallenge\bin\TriangleChallenge.pdb
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Helpers.dll
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Razor.dll
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Webpages.Deployment.dll
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Webpages.dll
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Webpages.Razor.dll
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Razor.xml
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Webpages.xml
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Webpages.Deployment.xml
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Webpages.Razor.xml
+D:\TriangleChallenge - bk\TriangleChallenge\bin\System.Web.Helpers.xml
+D:\TriangleChallenge - bk\TriangleChallenge\obj\Debug\TriangleChallenge.csprojResolveAssemblyReference.cache
+D:\TriangleChallenge - bk\TriangleChallenge\obj\Debug\TriangleChallenge.dll
+D:\TriangleChallenge - bk\TriangleChallenge\obj\Debug\TriangleChallenge.pdb
+E:\Source\Triangle Detector\TriangleChallenge\bin\TriangleChallenge.dll.config
+E:\Source\Triangle Detector\TriangleChallenge\bin\TriangleChallenge.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\TriangleChallenge.pdb
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Helpers.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Mvc.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Razor.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Webpages.Deployment.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Webpages.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Webpages.Razor.dll
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Razor.xml
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Webpages.xml
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Webpages.Deployment.xml
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Webpages.Razor.xml
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Helpers.xml
+E:\Source\Triangle Detector\TriangleChallenge\bin\System.Web.Mvc.xml
+E:\Source\Triangle Detector\TriangleChallenge\obj\Debug\TriangleChallenge.csprojResolveAssemblyReference.cache
+E:\Source\Triangle Detector\TriangleChallenge\obj\Debug\TriangleChallenge.dll
+E:\Source\Triangle Detector\TriangleChallenge\obj\Debug\TriangleChallenge.pdb
