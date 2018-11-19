@@ -8,8 +8,15 @@
             if (this.Side1() == "" || this.Side2() == "" || this.Side3() == "")
                 return "......";
             else {
-                var t = CheckResult(this.Side1(), this.Side2(), this.Side3());
-                return t;
+               try
+                {
+                    var t = CheckResult(this.Side1(), this.Side2(), this.Side3());
+                    return t;
+                }
+                catch(error)
+                {
+                    return error;
+                }
             }
 
         }, this);
