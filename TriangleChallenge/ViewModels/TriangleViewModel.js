@@ -9,9 +9,10 @@
         CheckResult(this.Side1(), this.Side2(), this.Side3());
         }
         catch(error)
-        {
-         alert(error)   
-        }
+            {
+                alert(error)
+                
+            }
     }
     this.ClearData = function ()
     {
