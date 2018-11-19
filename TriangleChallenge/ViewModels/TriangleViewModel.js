@@ -11,7 +11,7 @@
         catch(error)
             {
                 alert(error)
-                
+                //logingError(error)
             }
     }
     this.ClearData = function ()
