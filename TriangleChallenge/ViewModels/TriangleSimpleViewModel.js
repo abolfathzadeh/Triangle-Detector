@@ -16,6 +16,7 @@
                 catch(error)
                 {
                     return error;
+                    //logingError(error)
                 }
             }
 
