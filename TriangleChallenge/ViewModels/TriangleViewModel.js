@@ -28,7 +28,7 @@ ko.applyBindings(new ViewModel("", "", ""));
 function Validate(s1, s2, s3)
 {
     if (s1 == "" || s2 == "" || s3 == ""
-        || number(s1) == 0 || number(s2) == 0 || number(s3) == 0)
+        || Number(s1) == 0 || Number(s2) == 0 || Number(s3) == 0)
         return false;
     return true;
 }
