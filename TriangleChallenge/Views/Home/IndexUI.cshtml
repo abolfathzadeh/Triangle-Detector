@@ -1,4 +1,4 @@
-﻿@{
+@{
   
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -7,56 +7,54 @@
 }
     <div >
 
-        <table style="background-color:#ffdfdf;margin:50px; padding:20px;">
-            <tr>
-                <td colspan="2">
-                    <table style="border:groove;background-color:#cce7ff;width:100%">
-                        <tr>
-                            <td>
+        <div style="background-color:#ffdfdf;margin:50px; padding:20px;">
+            <div class="row">
+                <div class="col-md-6" >
+                    <div style="border:groove;background-color:#cce7ff;width:100%">
+                       
                                 Solution For Check Triangle Type(UI)-- by Alert Show
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td style="min-width:100px;">
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"  style="min-width:100px;">
                     <label for="lblSide1" style="color:darkblue">Side1:</label>
 
-                </td>
-                <td>
+                </div>
+                <div class="col-md-2" >
                     <input type="text" class="form-control" id="lblSide1" required placeholder="Side1" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value: Side1" />
 
-                </td>
-            </tr>
-            <tr>
-                <td>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1" >
                     <label for="lblSide2" style="color:darkblue">Side2:</label>
 
-                </td>
-                <td>
+                </div>
+                <div class="col-md-2" >
                     <input type="text" class="form-control" id="lblSide2" required placeholder="Side2" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value: Side2" />
 
-                </td>
-            </tr>
-            <tr>
-                <td>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1" >
                     <label for="lblSide3" style="color:darkblue">Side3:</label>
 
-                </td>
-                <td>
+                </div>
+                <div class="col-md-2" >
                     <input type="text" class="form-control" id="lblSide3" required placeholder="Side3" style="font-size: 13px; color: darkgreen;width :100px;" maxlength="6" onkeypress="return IsNumeric(event);" data-bind="value:Side3" />
 
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                </div>
+            </div>
+            <div class="row" style ="padding-top:10px;">
+                <div class="col-md-3" >
                     <button type="button" class="btn btn-primary" data-bind="click:function(){$root.CheckTriangleType()}"><i class="glyphicon glyphicon-screenshot"></i>&nbsp;&nbsp;Check The Type</button>
                     
                     <a target="_self" href="/Home/Index" class="btn btn-default"><i class="glyphicon glyphicon-remove"></i>&nbsp;&nbsp;Back</a>
-                </td>
-            </tr>           
-        </table>
+                </div>
+            </div>           
+        </div>
 <div style="padding:20px;">
 <p>
 This is The Third solution. In this page I used knockout js for bind object of UI to ViewModel.
